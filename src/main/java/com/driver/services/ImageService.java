@@ -45,7 +45,7 @@ public class ImageService {
         String[] dimension2 = image.getDimensions().split("X",-2);
         int X = Integer.parseInt(dimension2[0]);
         int Y = Integer.parseInt(dimension2[1]);
-        int numOfImages = (A*B)/(X*Y);
+        int numOfImages = A/X * B/Y;
         return numOfImages;
     }
 }
