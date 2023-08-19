@@ -83,4 +83,12 @@ public class User {
     {
         return this.blogList;
     }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public void setBlogList(List<Blog> blogList) {
+        this.blogList = blogList;
+    }
 }
